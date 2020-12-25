@@ -3,9 +3,28 @@ import './App.css';
 import Header from "./layout/header";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Login from "./core/login";
+import {useCookies} from "react-cookie";
+
+interface ConstructorParams {
+    props: any;
+}
 
 class App extends React.Component
 {
+    // @ts-ignore
+    constructor(props)
+    {
+        super(props);
+        this.state={
+            cookies:[]
+        }
+    }
+
+    componentDidMount()
+    {
+
+    }
+
     render()
     {
         return (

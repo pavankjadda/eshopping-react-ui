@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         customLink: {
             color: 'white',
+            textDecoration: 'none'
         },
     }),
 );
@@ -36,13 +37,15 @@ export default function Header()
                         <MenuIcon/>
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
-                        eShopping
-                    </Typography>
-                    <Button color="inherit">
-                        <Link className={classes.customLink} to="/login">
-                            Login
+                        <Link className={classes.customLink} to="/">
+                            eShopping
                         </Link>
-                    </Button>
+                    </Typography>
+
+                    <Link className={classes.customLink} to="/login">
+                        Login
+                    </Link>
+
                 </Toolbar>
             </AppBar>
         </div>

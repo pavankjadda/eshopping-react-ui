@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080ceee9-5eb4-43ff-9a58-57c46feb909a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1608611933029" duration="637000" />
       <workItem from="1608614100390" duration="817000" />
       <workItem from="1608866687772" duration="311000" />
-      <workItem from="1608867037127" duration="1867000" />
+      <workItem from="1608867037127" duration="2471000" />
     </task>
     <task id="LOCAL-00001" summary="Adds React Router and Material UI dependencies">
       <created>1608612521201</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608868437635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adds login component">
+      <created>1608869284919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608869284919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adds React Router and Material UI dependencies" />
     <MESSAGE value="Adds Header component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Header component" />
+    <MESSAGE value="Adds login component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds login component" />
   </component>
 </project>
